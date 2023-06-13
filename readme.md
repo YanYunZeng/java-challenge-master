@@ -6,7 +6,13 @@
 Application (with the embedded H2 database) is ready to be used ! You can access the url below for testing it :
 
 - Swagger UI : http://localhost:8080/swagger-ui.html
+user:admin
+password:admin123
+
 - H2 UI : http://localhost:8080/h2-console
+JDBC URL:jdbc:h2:mem:mydb
+user:sa
+password:password
 
 > Don't forget to set the `JDBC URL` value as `jdbc:h2:mem:testdb` for H2 UI.
 
@@ -47,6 +53,4 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 Please let us know more about your Java experience in a few sentences. For example:
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+- I have 5 years experience in Java and use Spring Boot around 3 years
